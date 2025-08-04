@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EliteShop - Premium E-commerce Store</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -15,7 +18,7 @@
             <div class="nav-brand">
                 <h1><i class="fas fa-crown"></i> EliteShop</h1>
             </div>
-            
+
             <nav class="nav-menu">
                 <ul>
                     <li><a href="#home" class="nav-link active">Home</a></li>
@@ -25,7 +28,7 @@
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
-            
+
             <div class="nav-icons">
                 <div class="search-box">
                     <input type="text" id="searchInput" placeholder="Search products...">
@@ -51,11 +54,13 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Discover Premium Products</h1>
-                <p>Shop the latest trends in fashion, electronics, and lifestyle products with exclusive deals and fast delivery.</p>
+                <p>Shop the latest trends in fashion, electronics, and lifestyle products with exclusive deals and fast
+                    delivery.</p>
                 <button class="cta-btn">Shop Now</button>
             </div>
             <div class="hero-image">
-                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Shopping Experience">
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                    alt="Shopping Experience">
             </div>
         </div>
     </section>
@@ -67,31 +72,43 @@
             <div class="categories-grid">
                 <div class="category-card" data-category="electronics">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Electronics">
+                        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Electronics">
                     </div>
                     <h3>Electronics</h3>
                     <p>Latest gadgets and tech</p>
                 </div>
                 <div class="category-card" data-category="fashion">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Fashion">
+                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Fashion">
                     </div>
                     <h3>Fashion</h3>
                     <p>Trendy clothing & accessories</p>
                 </div>
                 <div class="category-card" data-category="home">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Home & Living">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Home & Living">
                     </div>
                     <h3>Home & Living</h3>
                     <p>Furniture & home decor</p>
                 </div>
                 <div class="category-card" data-category="sports">
                     <div class="category-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Sports">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Sports">
                     </div>
                     <h3>Sports</h3>
                     <p>Fitness & outdoor gear</p>
+                </div>
+                <div class="category-card" data-category="beauty">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                            alt="Beauty & Personal Care">
+                    </div>
+                    <h3>Beauty & Personal Care</h3>
+                    <p>Skincare, makeup & wellness</p>
                 </div>
             </div>
         </div>
@@ -101,7 +118,7 @@
     <section class="featured-products" id="products">
         <div class="container">
             <h2 class="section-title">Featured Products</h2>
-            
+
             <!-- Filter Controls -->
             <div class="filter-controls">
                 <div class="filter-group">
@@ -111,6 +128,7 @@
                         <option value="fashion">Fashion</option>
                         <option value="home">Home & Living</option>
                         <option value="sports">Sports</option>
+                        <option value="beauty">Beauty & Personal Care</option>
                     </select>
                 </div>
                 <div class="filter-group">
@@ -136,7 +154,7 @@
             <div class="products-grid" id="productsGrid">
                 <!-- Products will be dynamically loaded here -->
             </div>
-            
+
             <div class="load-more-container">
                 <button class="load-more-btn" id="loadMoreBtn">Load More Products</button>
             </div>
@@ -168,7 +186,7 @@
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/sourovnandi"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
@@ -192,9 +210,9 @@
                 <div class="footer-section">
                     <h4>Contact Info</h4>
                     <div class="contact-info">
-                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                        <p><i class="fas fa-envelope"></i> info@eliteshop.com</p>
-                        <p><i class="fas fa-map-marker-alt"></i> 123 Shopping St, City, State 12345</p>
+                        <p><i class="fas fa-phone"></i> +91 8942043336</p>
+                        <p><i class="fas fa-envelope"></i> sourovfrd1@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Star City Lane, Patia,Bhubaneswar,Odisha</p>
                     </div>
                 </div>
             </div>
@@ -255,7 +273,8 @@
                         <input type="password" placeholder="Password" required>
                     </div>
                     <button type="submit" class="auth-submit-btn">Login</button>
-                    <p class="auth-link">Don't have an account? <a href="#" class="switch-auth" data-tab="register">Sign up</a></p>
+                    <p class="auth-link">Don't have an account? <a href="#" class="switch-auth" data-tab="register">Sign
+                            up</a></p>
                 </form>
                 <form class="auth-form" id="registerForm">
                     <h3>Create Account</h3>
@@ -272,7 +291,8 @@
                         <input type="password" placeholder="Confirm Password" required>
                     </div>
                     <button type="submit" class="auth-submit-btn">Create Account</button>
-                    <p class="auth-link">Already have an account? <a href="#" class="switch-auth" data-tab="login">Sign in</a></p>
+                    <p class="auth-link">Already have an account? <a href="#" class="switch-auth" data-tab="login">Sign
+                            in</a></p>
                 </form>
             </div>
         </div>
@@ -319,4 +339,5 @@
     <script src="js/checkout.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

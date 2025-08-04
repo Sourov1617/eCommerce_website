@@ -1,5 +1,6 @@
 // Products Database
 const productsData = [
+    // Electronics Category
     {
         id: 1,
         name: "Premium Wireless Headphones",
@@ -30,48 +31,6 @@ const productsData = [
     },
     {
         id: 3,
-        name: "Designer Leather Jacket",
-        category: "fashion",
-        price: 159.99,
-        originalPrice: 199.99,
-        image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-        rating: 4.7,
-        reviews: 156,
-        description: "Premium genuine leather jacket with modern design. Perfect for casual and semi-formal occasions. Available in multiple sizes and colors.",
-        features: ["Genuine Leather", "Modern Design", "Multiple Colors", "Comfortable Fit"],
-        inStock: true,
-        badge: "Sale"
-    },
-    {
-        id: 4,
-        name: "Ergonomic Office Chair",
-        category: "home",
-        price: 249.99,
-        originalPrice: 319.99,
-        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-        rating: 4.5,
-        reviews: 98,
-        description: "Comfortable ergonomic office chair with lumbar support, adjustable height, and breathable mesh design. Perfect for long working hours.",
-        features: ["Lumbar Support", "Adjustable Height", "Breathable Mesh", "360° Swivel"],
-        inStock: true,
-        badge: ""
-    },
-    {
-        id: 5,
-        name: "Professional Running Shoes",
-        category: "sports",
-        price: 129.99,
-        originalPrice: 159.99,
-        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-        rating: 4.9,
-        reviews: 234,
-        description: "High-performance running shoes with advanced cushioning technology, breathable upper, and durable sole for all terrains.",
-        features: ["Advanced Cushioning", "Breathable Upper", "Durable Sole", "Lightweight Design"],
-        inStock: true,
-        badge: "Top Rated"
-    },
-    {
-        id: 6,
         name: "Wireless Bluetooth Speaker",
         category: "electronics",
         price: 79.99,
@@ -85,49 +44,7 @@ const productsData = [
         badge: ""
     },
     {
-        id: 7,
-        name: "Vintage Denim Jeans",
-        category: "fashion",
-        price: 89.99,
-        originalPrice: 119.99,
-        image: "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-        rating: 4.3,
-        reviews: 203,
-        description: "Classic vintage-style denim jeans with comfortable fit, premium denim fabric, and timeless design.",
-        features: ["Premium Denim", "Comfortable Fit", "Vintage Style", "Durable Construction"],
-        inStock: true,
-        badge: ""
-    },
-    {
-        id: 8,
-        name: "Modern Table Lamp",
-        category: "home",
-        price: 64.99,
-        originalPrice: 89.99,
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-        rating: 4.6,
-        reviews: 89,
-        description: "Elegant modern table lamp with adjustable brightness, touch control, and minimalist design.",
-        features: ["Touch Control", "Adjustable Brightness", "Modern Design", "Energy Efficient"],
-        inStock: true,
-        badge: ""
-    },
-    {
-        id: 9,
-        name: "Yoga Mat Pro",
-        category: "sports",
-        price: 39.99,
-        originalPrice: 59.99,
-        image: "https://images.unsplash.com/photo-1506629905607-c65c74f0dc7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-        rating: 4.7,
-        reviews: 145,
-        description: "Professional yoga mat with non-slip surface, extra cushioning, and eco-friendly materials.",
-        features: ["Non-slip Surface", "Extra Cushioning", "Eco-friendly", "Easy to Clean"],
-        inStock: true,
-        badge: "Eco-Friendly"
-    },
-    {
-        id: 10,
+        id: 4,
         name: "Smartphone 128GB",
         category: "electronics",
         price: 599.99,
@@ -141,7 +58,65 @@ const productsData = [
         badge: "New"
     },
     {
-        id: 11,
+        id: 5,
+        name: "4K Webcam Pro",
+        category: "electronics",
+        price: 129.99,
+        originalPrice: 169.99,
+        image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.5,
+        reviews: 98,
+        description: "Professional 4K webcam with auto-focus, noise reduction, and wide-angle lens for streaming and video calls.",
+        features: ["4K Resolution", "Auto-focus", "Noise Reduction", "Wide-angle Lens"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 6,
+        name: "Gaming Mechanical Keyboard",
+        category: "electronics",
+        price: 149.99,
+        originalPrice: 199.99,
+        image: "https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.7,
+        reviews: 203,
+        description: "RGB mechanical gaming keyboard with tactile switches, customizable lighting, and programmable keys.",
+        features: ["Mechanical Switches", "RGB Lighting", "Programmable Keys", "Anti-ghosting"],
+        inStock: true,
+        badge: "Gaming"
+    },
+
+    // Fashion Category
+    {
+        id: 7,
+        name: "Designer Leather Jacket",
+        category: "fashion",
+        price: 159.99,
+        originalPrice: 199.99,
+        image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.7,
+        reviews: 156,
+        description: "Premium genuine leather jacket with modern design. Perfect for casual and semi-formal occasions. Available in multiple sizes and colors.",
+        features: ["Genuine Leather", "Modern Design", "Multiple Colors", "Comfortable Fit"],
+        inStock: true,
+        badge: "Sale"
+    },
+    {
+        id: 8,
+        name: "Vintage Denim Jeans",
+        category: "fashion",
+        price: 89.99,
+        originalPrice: 119.99,
+        image: "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.3,
+        reviews: 203,
+        description: "Classic vintage-style denim jeans with comfortable fit, premium denim fabric, and timeless design.",
+        features: ["Premium Denim", "Comfortable Fit", "Vintage Style", "Durable Construction"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 9,
         name: "Designer Handbag",
         category: "fashion",
         price: 199.99,
@@ -155,7 +130,79 @@ const productsData = [
         badge: ""
     },
     {
+        id: 10,
+        name: "Casual Cotton T-Shirt",
+        category: "fashion",
+        price: 24.99,
+        originalPrice: 34.99,
+        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.2,
+        reviews: 145,
+        description: "Comfortable cotton t-shirt with modern cut and breathable fabric. Available in various colors and sizes.",
+        features: ["100% Cotton", "Breathable Fabric", "Modern Cut", "Multiple Colors"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 11,
+        name: "Elegant Evening Dress",
+        category: "fashion",
+        price: 149.99,
+        originalPrice: 199.99,
+        image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.6,
+        reviews: 87,
+        description: "Sophisticated evening dress perfect for special occasions. Features elegant design and comfortable fit.",
+        features: ["Elegant Design", "Comfortable Fit", "Premium Fabric", "Special Occasions"],
+        inStock: true,
+        badge: "Elegant"
+    },
+    {
         id: 12,
+        name: "Classic Dress Shirt",
+        category: "fashion",
+        price: 59.99,
+        originalPrice: 79.99,
+        image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.4,
+        reviews: 134,
+        description: "Professional dress shirt with wrinkle-resistant fabric and classic fit. Perfect for business and formal occasions.",
+        features: ["Wrinkle-resistant", "Classic Fit", "Professional Look", "Easy Care"],
+        inStock: true,
+        badge: ""
+    },
+
+    // Home & Living Category
+    {
+        id: 13,
+        name: "Ergonomic Office Chair",
+        category: "home",
+        price: 249.99,
+        originalPrice: 319.99,
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.5,
+        reviews: 98,
+        description: "Comfortable ergonomic office chair with lumbar support, adjustable height, and breathable mesh design. Perfect for long working hours.",
+        features: ["Lumbar Support", "Adjustable Height", "Breathable Mesh", "360° Swivel"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 14,
+        name: "Modern Table Lamp",
+        category: "home",
+        price: 64.99,
+        originalPrice: 89.99,
+        image: "https://images.unsplash.com/photo-1551380701-5dd33d5b5d06?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        rating: 4.6,
+        reviews: 89,
+        description: "Elegant modern table lamp with adjustable brightness, touch control, and minimalist design.",
+        features: ["Touch Control", "Adjustable Brightness", "Modern Design", "Energy Efficient"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 15,
         name: "Coffee Maker Deluxe",
         category: "home",
         price: 149.99,
@@ -167,6 +214,178 @@ const productsData = [
         features: ["Programmable", "Thermal Carafe", "Auto Shut-off", "Easy Clean"],
         inStock: true,
         badge: "Best Seller"
+    },
+    {
+        id: 16,
+        name: "Smart Air Purifier",
+        category: "home",
+        price: 299.99,
+        originalPrice: 399.99,
+        image: "https://media.istockphoto.com/id/1357556077/photo/air-freshener-air-cleaner-device.jpg?s=1024x1024&w=is&k=20&c=UX0FqUTp9TLIZACisLsi8q-NzpsK50aQjeG5AJK4TmM=",
+        rating: 4.7,
+        reviews: 156,
+        description: "Advanced air purifier with HEPA filter, smart controls, and real-time air quality monitoring.",
+        features: ["HEPA Filter", "Smart Controls", "Air Quality Monitor", "Quiet Operation"],
+        inStock: true,
+        badge: "Smart"
+    },
+    {
+        id: 17,
+        name: "Luxury Bedding Set",
+        category: "home",
+        price: 189.99,
+        originalPrice: 249.99,
+        image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.8,
+        reviews: 167,
+        description: "Premium cotton bedding set with soft texture, elegant design, and long-lasting comfort.",
+        features: ["Premium Cotton", "Soft Texture", "Elegant Design", "Easy Care"],
+        inStock: true,
+        badge: "Luxury"
+    },
+    {
+        id: 18,
+        name: "Kitchen Knife Set",
+        category: "home",
+        price: 119.99,
+        originalPrice: 159.99,
+        image: "https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.5,
+        reviews: 203,
+        description: "Professional kitchen knife set with sharp stainless steel blades and ergonomic handles.",
+        features: ["Stainless Steel", "Sharp Blades", "Ergonomic Handles", "Storage Block"],
+        inStock: true,
+        badge: ""
+    },
+
+    // Sports Category
+    {
+        id: 19,
+        name: "Professional Running Shoes",
+        category: "sports",
+        price: 129.99,
+        originalPrice: 159.99,
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.9,
+        reviews: 234,
+        description: "High-performance running shoes with advanced cushioning technology, breathable upper, and durable sole for all terrains.",
+        features: ["Advanced Cushioning", "Breathable Upper", "Durable Sole", "Lightweight Design"],
+        inStock: true,
+        badge: "Top Rated"
+    },
+    {
+        id: 20,
+        name: "Yoga Mat Pro",
+        category: "sports",
+        price: 39.99,
+        originalPrice: 59.99,
+        image: "https://media.istockphoto.com/id/820933744/photo/young-woman-doing-yoga-twist-mat-healthy-lifestyle.jpg?s=1024x1024&w=is&k=20&c=ItH3gknlZ-G471Z03be8wmW2moYadtDIwzRHGiNXZqE=",
+        rating: 4.7,
+        reviews: 145,
+        description: "Professional yoga mat with non-slip surface, extra cushioning, and eco-friendly materials.",
+        features: ["Non-slip Surface", "Extra Cushioning", "Eco-friendly", "Easy to Clean"],
+        inStock: true,
+        badge: "Eco-Friendly"
+    },
+    {
+        id: 21,
+        name: "Adjustable Dumbbells Set",
+        category: "sports",
+        price: 299.99,
+        originalPrice: 399.99,
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.6,
+        reviews: 189,
+        description: "Versatile adjustable dumbbells with quick weight changes and compact design for home workouts.",
+        features: ["Adjustable Weight", "Quick Change", "Compact Design", "Durable Construction"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 22,
+        name: "Resistance Bands Set",
+        category: "sports",
+        price: 29.99,
+        originalPrice: 49.99,
+        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.4,
+        reviews: 298,
+        description: "Complete resistance bands set with multiple resistance levels for full-body workouts.",
+        features: ["Multiple Resistance Levels", "Full-body Workout", "Portable", "Exercise Guide"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 23,
+        name: "Basketball Official Size",
+        category: "sports",
+        price: 49.99,
+        originalPrice: 69.99,
+        image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.5,
+        reviews: 156,
+        description: "Official size basketball with premium grip and durable construction for indoor and outdoor play.",
+        features: ["Official Size", "Premium Grip", "Indoor/Outdoor", "Durable Construction"],
+        inStock: true,
+        badge: ""
+    },
+    {
+        id: 24,
+        name: "Swimming Goggles Pro",
+        category: "sports",
+        price: 34.99,
+        originalPrice: 49.99,
+        image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.3,
+        reviews: 123,
+        description: "Professional swimming goggles with anti-fog coating, UV protection, and comfortable fit.",
+        features: ["Anti-fog Coating", "UV Protection", "Comfortable Fit", "Leak-proof"],
+        inStock: true,
+        badge: ""
+    },
+
+    // Beauty & Personal Care Category
+    {
+        id: 25,
+        name: "Skincare Starter Kit",
+        category: "beauty",
+        price: 79.99,
+        originalPrice: 109.99,
+        image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.6,
+        reviews: 234,
+        description: "Complete skincare routine with cleanser, toner, serum, and moisturizer for healthy, glowing skin.",
+        features: ["Complete Routine", "All Skin Types", "Natural Ingredients", "Dermatologist Tested"],
+        inStock: true,
+        badge: "Complete Set"
+    },
+    {
+        id: 26,
+        name: "Hair Styling Kit",
+        category: "beauty",
+        price: 149.99,
+        originalPrice: 199.99,
+        image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.5,
+        reviews: 187,
+        description: "Professional hair styling kit with multiple attachments and temperature control for all hair types.",
+        features: ["Multiple Attachments", "Temperature Control", "All Hair Types", "Professional Results"],
+        inStock: true,
+        badge: "Professional"
+    },
+    {
+        id: 27,
+        name: "Makeup Brush Set",
+        category: "beauty",
+        price: 59.99,
+        originalPrice: 89.99,
+        image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+        rating: 4.7,
+        reviews: 156,
+        description: "Premium makeup brush set with soft bristles and ergonomic handles for professional makeup application.",
+        features: ["Soft Bristles", "Ergonomic Handles", "Professional Quality", "Storage Case"],
+        inStock: true,
+        badge: ""
     }
 ];
 
@@ -188,41 +407,60 @@ class ProductManager {
         const searchInput = document.getElementById('searchInput');
         const searchBtn = document.querySelector('.search-btn');
         
-        searchInput.addEventListener('input', (e) => {
-            this.searchProducts(e.target.value);
-        });
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                this.searchProducts(e.target.value);
+            });
+        }
         
-        searchBtn.addEventListener('click', () => {
-            this.searchProducts(searchInput.value);
-        });
+        if (searchBtn) {
+            searchBtn.addEventListener('click', () => {
+                this.searchProducts(searchInput.value);
+            });
+        }
 
         // Filter functionality
-        document.getElementById('categoryFilter').addEventListener('change', () => {
-            this.applyFilters();
-        });
+        const categoryFilter = document.getElementById('categoryFilter');
+        const priceFilter = document.getElementById('priceFilter');
+        const sortFilter = document.getElementById('sortFilter');
 
-        document.getElementById('priceFilter').addEventListener('change', () => {
-            this.applyFilters();
-        });
+        if (categoryFilter) {
+            categoryFilter.addEventListener('change', () => {
+                this.applyFilters();
+            });
+        }
 
-        document.getElementById('sortFilter').addEventListener('change', () => {
-            this.applyFilters();
-        });
+        if (priceFilter) {
+            priceFilter.addEventListener('change', () => {
+                this.applyFilters();
+            });
+        }
+
+        if (sortFilter) {
+            sortFilter.addEventListener('change', () => {
+                this.applyFilters();
+            });
+        }
 
         // Category card clicks
         document.querySelectorAll('.category-card').forEach(card => {
             card.addEventListener('click', () => {
                 const category = card.dataset.category;
-                document.getElementById('categoryFilter').value = category;
-                this.applyFilters();
-                document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+                if (categoryFilter) {
+                    categoryFilter.value = category;
+                    this.applyFilters();
+                    document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+                }
             });
         });
 
         // Load more button
-        document.getElementById('loadMoreBtn').addEventListener('click', () => {
-            this.loadMoreProducts();
-        });
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', () => {
+                this.loadMoreProducts();
+            });
+        }
     }
 
     searchProducts(query) {
@@ -244,17 +482,17 @@ class ProductManager {
         let filtered = [...this.products];
         
         // Category filter
-        const categoryFilter = document.getElementById('categoryFilter').value;
-        if (categoryFilter) {
-            filtered = filtered.filter(product => product.category === categoryFilter);
+        const categoryFilter = document.getElementById('categoryFilter');
+        if (categoryFilter && categoryFilter.value) {
+            filtered = filtered.filter(product => product.category === categoryFilter.value);
         }
 
         // Price filter
-        const priceFilter = document.getElementById('priceFilter').value;
-        if (priceFilter) {
+        const priceFilter = document.getElementById('priceFilter');
+        if (priceFilter && priceFilter.value) {
             filtered = filtered.filter(product => {
                 const price = product.price;
-                switch (priceFilter) {
+                switch (priceFilter.value) {
                     case '0-50':
                         return price <= 50;
                     case '50-100':
@@ -270,20 +508,22 @@ class ProductManager {
         }
 
         // Sort filter
-        const sortFilter = document.getElementById('sortFilter').value;
-        switch (sortFilter) {
-            case 'name':
-                filtered.sort((a, b) => a.name.localeCompare(b.name));
-                break;
-            case 'price-low':
-                filtered.sort((a, b) => a.price - b.price);
-                break;
-            case 'price-high':
-                filtered.sort((a, b) => b.price - a.price);
-                break;
-            case 'rating':
-                filtered.sort((a, b) => b.rating - a.rating);
-                break;
+        const sortFilter = document.getElementById('sortFilter');
+        if (sortFilter) {
+            switch (sortFilter.value) {
+                case 'name':
+                    filtered.sort((a, b) => a.name.localeCompare(b.name));
+                    break;
+                case 'price-low':
+                    filtered.sort((a, b) => a.price - b.price);
+                    break;
+                case 'price-high':
+                    filtered.sort((a, b) => b.price - a.price);
+                    break;
+                case 'rating':
+                    filtered.sort((a, b) => b.rating - a.rating);
+                    break;
+            }
         }
 
         this.filteredProducts = filtered;
@@ -293,6 +533,8 @@ class ProductManager {
 
     renderProducts() {
         const productsGrid = document.getElementById('productsGrid');
+        if (!productsGrid) return;
+
         const startIndex = 0;
         const endIndex = this.currentPage * this.productsPerPage;
         const productsToShow = this.filteredProducts.slice(startIndex, endIndex);
@@ -312,10 +554,12 @@ class ProductManager {
         const loadMoreBtn = document.getElementById('loadMoreBtn');
         const loadMoreContainer = document.querySelector('.load-more-container');
         
-        if (endIndex >= this.filteredProducts.length) {
-            loadMoreContainer.style.display = 'none';
-        } else {
-            loadMoreContainer.style.display = 'block';
+        if (loadMoreContainer) {
+            if (endIndex >= this.filteredProducts.length) {
+                loadMoreContainer.style.display = 'none';
+            } else {
+                loadMoreContainer.style.display = 'block';
+            }
         }
 
         // Add fade-in animation
@@ -425,7 +669,10 @@ class ProductManager {
         if (!product) return;
 
         const modal = document.getElementById('productModal');
+        if (!modal) return;
+        
         const modalContent = modal.querySelector('.product-modal-content');
+        if (!modalContent) return;
 
         const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
 
@@ -479,22 +726,28 @@ class ProductManager {
     }
 
     addToCartFromModal(productId) {
-        const quantity = parseInt(document.getElementById('modalQuantity').value);
+        const quantityInput = document.getElementById('modalQuantity');
+        const quantity = quantityInput ? parseInt(quantityInput.value) : 1;
         this.addToCart(productId, quantity);
         this.hideModal('productModal');
     }
 
     buyNow(productId) {
-        const quantity = parseInt(document.getElementById('modalQuantity').value);
+        const quantityInput = document.getElementById('modalQuantity');
+        const quantity = quantityInput ? parseInt(quantityInput.value) : 1;
         this.addToCart(productId, quantity);
         this.hideModal('productModal');
         
         // Open cart and proceed to checkout
         setTimeout(() => {
-            window.cartManager.toggleCart();
-            setTimeout(() => {
-                window.checkoutManager.startCheckout();
-            }, 300);
+            if (window.cartManager) {
+                window.cartManager.toggleCart();
+                setTimeout(() => {
+                    if (window.checkoutManager) {
+                        window.checkoutManager.startCheckout();
+                    }
+                }, 300);
+            }
         }, 500);
     }
 
@@ -502,8 +755,8 @@ class ProductManager {
         const modal = document.getElementById(modalId);
         const overlay = document.getElementById('modalOverlay');
         
-        modal.classList.add('active');
-        overlay.classList.add('active');
+        if (modal) modal.classList.add('active');
+        if (overlay) overlay.classList.add('active');
         document.body.style.overflow = 'hidden';
     }
 
@@ -511,22 +764,25 @@ class ProductManager {
         const modal = document.getElementById(modalId);
         const overlay = document.getElementById('modalOverlay');
         
-        modal.classList.remove('active');
-        overlay.classList.remove('active');
+        if (modal) modal.classList.remove('active');
+        if (overlay) overlay.classList.remove('active');
         document.body.style.overflow = 'auto';
     }
 
     showToast(message, type = 'success') {
         const toast = document.getElementById('toast');
-        const toastMessage = toast.querySelector('.toast-message');
+        if (!toast) return;
         
-        toastMessage.textContent = message;
-        toast.className = `toast ${type}`;
-        toast.classList.add('show');
+        const toastMessage = toast.querySelector('.toast-message');
+        if (toastMessage) {
+            toastMessage.textContent = message;
+            toast.className = `toast ${type}`;
+            toast.classList.add('show');
 
-        setTimeout(() => {
-            toast.classList.remove('show');
-        }, 3000);
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
     }
 
     getProductById(id) {
